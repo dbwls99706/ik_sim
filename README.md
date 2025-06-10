@@ -1,2 +1,30 @@
-# ik_sim
-2DOF ik_simulation
+# ik_sim: 2자유도 로봇 팔 역기구학 시뮬레이터
+
+`ik_sim`은 2자유도(2-DOF) 로봇 팔의 역기구학(Inverse Kinematics)을 시각적으로 시뮬레이션하는 GUI 애플리케이션이다. 
+Tkinter와 Matplotlib을 활용하여 로봇 팔의 움직임을 보여준다.
+
+## 주요 기능
+* **2-DOF 로봇 팔 시뮬레이션**: 두 개의 링크로 구성된 로봇 팔 움직임 시뮬레이션.
+* **링크 길이 및 목표 위치 설정**: 사용자가 직접 링크 길이와 목표 X, Y 좌표를 설정.
+* **역기구학 계산 및 시각화**: 목표 위치에 대한 관절 각도를 계산하고 로봇 팔 자세를 실시간으로 업데이트하여 그래프에 표시.
+* **작업 공간 및 특이점 경고**: 로봇 팔이 도달할 수 없는 영역이나 특이점 진입 시 경고 메시지 제공.
+
+## 사용 방법
+1.  **실행**: `ik.py` 파일을 실행.
+    ```bash
+    python ik.py
+    ```
+    ![image](https://github.com/user-attachments/assets/f9c8b133-8c2b-45f8-86fe-14060f055d2b)
+
+2.  **설정**: "로봇 파라미터"에서 링크 길이를 조절하고, "목표 위치"에서 X, Y 좌표를 입력.
+
+3.  **계산**: `역기구학 계산` 버튼을 클릭하여 로봇 팔의 자세를 업데이트.
+
+
+**예시**:
+    ![image](https://github.com/user-attachments/assets/8ff50ddd-da9c-4043-a2e0-fc0d55b99529)
+
+**필요 라이브러리**
+    ```bash
+    pip install numpy matplotlib
+    ```
