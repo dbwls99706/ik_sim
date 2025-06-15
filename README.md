@@ -33,16 +33,18 @@ Tkinter와 Matplotlib을 활용하여 로봇 팔의 움직임을 보여준다.
 2.  **설정**: "로봇 파라미터"에서 링크 길이를 조절하고, "목표 위치"에서 X, Y 좌표를 입력.
 
 3.  **계산**: `역기구학 계산` 버튼을 클릭하여 로봇 팔의 자세를 업데이트.
+![image](https://github.com/user-attachments/assets/8ff50ddd-da9c-4043-a2e0-fc0d55b99529)
 
 ### 자코비안 방법
 1. **실행**: 웹브라우저에서 `ik_jacobian.html` 파일을 열기
-2. **설정**: 슬라이더로 목표 위치와 링크 길이 조절
-3. **계산**: `역기구학 해결` 버튼으로 수렴 과정 애니메이션 시작
+2. 
+3. **설정**: 슬라이더로 목표 위치와 링크 길이 조절
+4. 
+5. **계산**: `역기구학 해결` 버튼으로 수렴 과정 애니메이션 시작
 
-**예시**:
-    ![image](https://github.com/user-attachments/assets/8ff50ddd-da9c-4043-a2e0-fc0d55b99529)
+![image](https://github.com/user-attachments/assets/b06ab9fe-1b44-4ba4-959a-4f8d01891d48)
+
 
 **필요 라이브러리**
-    ```bash
+
     pip install numpy matplotlib
-    ```
